@@ -4,12 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Get common SoC device configs
-$(call inherit-product, device/nubia/sm8650-common/pineapple.mk)
-
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/nubia/nx721j/nx721j-vendor.mk)
-
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
